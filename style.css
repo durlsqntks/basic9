@@ -1,0 +1,240 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gugi&family=Single+Day&family=Song+Myung&display=swap'); /* style.css 에 넣는 방법 */
+
+*{margin: 0; padding: 0;}
+/*  font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Noto Sans KR', sans-serif; */
+.Cure:after
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.All
+{
+    background-color: rgb(174, 112, 202);
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+    .All .First
+    {
+        background-color: rgb(83, 151, 172);
+        padding: 20px;
+    }
+        .All .First .First-1
+        {
+            margin-right: 2%;
+            width: 23.5%;
+            float: left;
+        }
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ첫번째ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+            .All .First .First-1.First-1-1
+            {
+                position: relative;
+                font-family: 'East Sea Dokdo', cursive;
+                background-color: rgb(14, 116, 212);
+                overflow: hidden;
+            }
+                .All .First .First-1.First-1-1 .First-1-1-1
+                {
+                    position: relative;
+                    background-image: url(	https://t1.daumcdn.net/cfile/tistory/2121324753E60C7724?download);
+                    background-size: cover;
+                    background-position: center;
+                    height: 200px;
+                }
+                .All .First .First-1.First-1-1 .First-1-1-1 h4
+                {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 3px 5px;
+                    background-color: rgb(129, 181, 211);
+                    color: rgb(46, 79, 224);
+                }
+                .All .First .First-1.First-1-1 .First-1-1-2
+                {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDF9JP%2FbtqYvdtArxq%2FKuU1fKYlGh003MN5jL63a0%2Fimg.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    transition: 0.3s;
+                    transform: translateX(100%);
+
+                }
+                .All .First .First-1.First-1-1:hover .First-1-1-2
+                {
+                    transform: translateX(0%);
+                }
+                .All .First .First-1.First-1-1 .First-1-1-2 h4
+                {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: rgb(129, 181, 211);
+                    color: rgb(46, 79, 224);
+                }
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ첫번째ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ두번째ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/    
+            .All .First .First-1.First-1-2
+            {
+                position: relative;
+                font-family: 'Single Day', cursive;
+                background-color: rgb(173, 82, 29);
+                overflow: hidden;
+            }
+            .All .First .First-1.First-1-2 .First-1-2-1
+                {
+                    position: relative;
+                    background-image: url(https://w.namu.la/s/50e72042da973eab10681d8a026d5aa9385e0ad3dac4c82597dd37953126a09366cdcf1eac0d237dd6a6bf4f25c7800dabd2417547e5165663b7fa67d223ad977d8f635a67aedd80d9e42b668e53e2df402a40f4451b221d0478bbba553fbb43);
+                    background-size: cover;
+                    background-position: center;
+                    height: 200px;
+                }
+                .All .First .First-1.First-1-2 .First-1-2-1 h4
+                {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 3px 5px;
+                    background-color: rgb(129, 181, 211);
+                    color: rgb(46, 79, 224);
+                }
+                .All .First .First-1.First-1-2 .First-1-2-2
+                {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    background-image: url(https://1.bp.blogspot.com/-6K9UCnInQx0/XT7vMEsdjFI/AAAAAAAAIBg/U597x8f57zQ2nLJqaRlbfaADxsgFssmaACLcBGAs/s1600/tumblr_puy99xnH5W1qf5hjqo10_540.gif);
+                    background-size: cover;
+                    background-position: center;
+                    transition: 0.3s;
+                    transform: translateX(-100%);
+
+                }
+                .All .First .First-1.First-1-2:hover .First-1-2-2
+                {
+                    transform: translateX(0%);
+                }
+                .All .First .First-1.First-1-2 .First-1-2-2 h4
+                {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: rgb(129, 181, 211);
+                    color: rgb(46, 79, 224);
+                }
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ두번째ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ세번째ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/         
+            .All .First .First-1.First-1-3
+            {
+                position: relative;
+                font-family: 'Single Day', cursive;
+                background-color: rgb(255, 238, 0);
+                height: 200px;
+                overflow: hidden;
+            }
+            .All .First .First-1.First-1-3 .Cap
+            {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+            }
+            .All .First .First-1.First-1-3 .Cap h4
+            {
+                position:absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgb(221, 84, 20);
+                color:rgb(10, 45, 139);
+                padding: 3px 5px;
+            }
+            .All .First .First-1.First-1-3 .First-1-3-1
+            {
+                z-index: 2;
+                background-image: url(https://thumbs.gfycat.com/SecondaryAbleAltiplanochinchillamouse-size_restricted.gif);
+                transform: scale(0.1);
+                transform: translateY(0%);
+                transition: 0.3;
+            }
+            .All .First .First-1.First-1-3:hover .First-1-3-1
+            {
+                transform: translateY(0%);
+            }
+            .All .First .First-1.First-1-3 .First-1-3-2
+            {
+                z-index: 1; /* z-index는 position이 있어야 적용됨 */
+                background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxNzAxMDJfNTAg/MDAxNDgzMzY1ODQ5MDcx.dazjVvurMQMcRZ8xtcpPnv0Us-aUHUFjGcy7ENQwQ5Qg.SItOGNM4vWB-0YK3FWwOpLufUWUge5Ng-C1YZW9GXTog.GIF.athlete1225/running.gif?type=w800);
+
+                transform: translateY(-100%);
+            }
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ세번째ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/ 
+            .All .First .First-1.First-1-4
+            {
+                position:relative;
+                font-family: 'Song Myung', serif;
+                background-color: rgb(43, 255, 0);
+                margin-right: 0;
+                height: 200px;
+            }
+            .All .First .First-1.First-1-4 .God
+            {
+                position:absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+            }
+            .All .First .First-1.First-1-4 .God h4
+            {
+                position:absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgb(54, 53, 4);
+                color: yellow;
+                padding: 3px 5px;
+            }
+            .All .First .First-1.First-1-4 .Thor-1
+            {
+                z-index: 2;
+                background-image: url(https://s.gae9.com/trend/9c76d01919f8b94d.orig);
+                transform: scale(0.1);
+                opacity: 0;
+                transition: 0.3s;
+            }
+            .All .First .First-1.First-1-4:hover .Thor-1
+            {
+                transform: scale(1);
+                opacity: 1;
+            }
+            .All .First .First-1.First-1-4 .Thor-2
+            {
+                z-index: 1;
+                background-image: url(https://s.gae9.com/trend/5e4ad6a7842db554.orig);
+            }
+
+            
+            /* .All .First .First-end{Clear: both;}  */
